@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+ 	<head>
+ 		<meta charset="utf-8">
+ 		<link rel="stylesheet" type="text/css" href="css/style-festival.css">
+ 		<title>ENIGMA MUSIC FESTIVAL</title>
+ 		<link rel="preconnect" href="https://fonts.googleapis.com"> 
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+		<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,400;1,600&display=swap" rel="stylesheet">
+ 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+ 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 	</head>
+ 	
+ 	<body>
+ 		<header>
+ 		<div class="head">
+ 			<div id="title">
+	       	<h1><span class="colore1">ENIGMA</span> <span class="colore2">music festival</span></h1>
+	        <p class="tagline colore2">EVENTI MUSICALI</p>
+	    	</div>
+
+	    		<nav class="logo">
+			    	<a href="index.html">
+			        	<img src="img/logo.jpg" alt="social enigma"/>
+					</a>
+				</nav>
+		</div>
+
+
+				<nav class="home-nav">
+					<a class="menu margin" type="button" href="index.html">HOME</a>
+					<a class="menu margin" type="button" href="about.html">CHI SIAMO</a>
+					<a class="menu margin" type="button" href="gallery.html">GALLERIA</a>
+					<div class="dropdown">
+					<a class="menu margin dropbnt active" type="button" href="events.html">EVENTI MUSICALI</a>
+					<div class="dropdown-content">
+						<a href="akk.html">AKK-KARAOKE</a>
+						<a class="active" href="#">FESTIVAL MUSICALE</a>
+					</div>
+					</div>
+					<a class="menu" type="button" href="cont.html">CONTATTI</a>
+				</nav>
+
+				<nav>
+					<a href="javascript:void(0);" onclick="toggleMenu()" class="menu-mobile">
+						<button id="decore-b">MENU
+							<img id="burger" src="img/icon.svg">
+						</button>
+					</a>
+					<div id="home-nav-mobile">
+		          		<a href=" index.html">HOME</a>
+						<a href="about.html">CHI SIAMO</a>
+						<a href="gallery.html">GALLERIA</a>
+						<a href="cont.html">CONTATTI</a>
+						<a href="javascript:void(0);" onclick="toggleSubMenu()">EVENTI MUSICALI</a>
+							<div id="mobile-menu-sub-section">
+								<a href="akk.html">AKK-KARAOKE</a>
+								<a class="active" href="#">FESTIVAL MUSICALE</a>
+							</div>
+					</div>
+				</nav>
+		</header>
+
+		<main>
+			<p id="paragrafo">Quest'anno il Circolo ARCI Enigma, da sempre interessato all'ambito musicale, ha deciso di organizzare un festival estivo a cui parteciperanno vari gruppi e cantanti del territorio con l'aggiunta di un ospite che verrà annunciato prossimamente. Il festival si terrà il 22-23.06.2022, dunque se sei un cantante, fai parte di un gruppo o desideri esibirti solo in strumentale, sappi che cerchiamo te! Puoi inviare la tua candidatura o quella del tuo gruppo nel box sottostante, riceverai presto una risposta con ulteriori informazioni per partecipare.</p>
+
+		<div id="candidatura">
+			<div class="img-container"><img id="img-festival" src="img/festival.jpeg"/></div>
+
+			<form name="formmail" method="post" action="https://formsubmit.co/benedetta.mori2@studio.unibo.it">
+			  <input type="hidden" name="_subject" value="Messaggio dal sito" />
+			  <input type="hidden" name="_next" value="http://www.miosito.com/pagina-successo.html" />
+
+			  <label id="nome2" for="nome">Nome e Cognome</label>
+			  <input type="text" id="nome" name="nome" placeholder="Inserisci Nome e Cognome">
+
+			  <label id="email2" for="email">Email</label>
+			  <input type="text" id="email" name="email" placeholder="Indirizzo di posta elettronica">
+
+			  <label id="tel2" for="tel">Telefono</label>
+			  <input type="text" id="tel" name="tel" placeholder="Numero di telefono">
+
+			  <label id="msg2" for="msg">Messaggio</label>
+			  <textarea id="msg" name="msg" placeholder="Scrivi il tuo messaggio"></textarea>
+
+			  <input id="submit" type="submit" value="Invia Candidatura">
+			</form>
+
+		</div>
+		</main>
+
+		<footer>
+  			<div id="f-img">
+  				<img src="img/logo-2.png" alt="logo"/>
+  			</div>
+  			<div id="f-p">
+  				<p>Via Giuseppe Garibaldi, 1 43038 Sala Baganza PR</p>
+  			</div>
+  			<div id="f-p2">
+  				<p>Made with &#10084; by Benedetta Mori</p>
+  				<p>2022</p>
+  			</div>
+  		</footer>
+		<script src="js/hamburger-menu.js"></script>
+	</body>
+</html>
