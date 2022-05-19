@@ -213,7 +213,14 @@ footer {
         background-color: #d8232a;
         border: 3px solid;
         border-color: white;
-        border-radius: 3px;
+        border-radius: 0;
+    }
+
+    .menu:hover { 
+        background-color: white; 
+        color: #d8232a;
+        border-color: #d8232a;
+        transition: inherit;
     }
 
     footer {
