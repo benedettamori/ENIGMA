@@ -53,8 +53,10 @@ img {
 }
 
 .home-nav {
-  display: inline-block;
+  display: flex;
   font-weight: bold;
+  justify-content: center;
+  align-items: center;
   font-size: 17px;
   background-color: #d8232a;
 }

@@ -45,12 +45,14 @@ img { max-width: 100%;
 .title { flex-direction: column; 
 } 
 
-.home-nav { 
-    display: inline-block;
+.home-nav {
+    display: flex;
     font-weight: bold;
+    justify-content: center;
+    align-items: center;
     font-size: 17px;
     background-color: #d8232a;
-}
+  }
 
 .menu { 
     text-decoration: none;
