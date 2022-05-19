@@ -1,48 +1,45 @@
-* {
-  font-family: "Titillium Web", sans-serif !important;
-  background-color: #d8232a;
+* { font-family: 'Titillium Web', sans-serif !important;
+    background-color: #d8232a;
 }
 
-img {
-  max-width: 100%;
+img { max-width: 100%; 
 }
 
-header {
-  height: 30vh;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+header { 
+    height: 30vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.logo {
-  width: 150px;
+.logo { width: 150px;
 }
 
-#back {
-  text-decoration: none;
-  font-weight: bold;
-  color: #d8232a;
-  background-color: white;
-  font-size: 20px;
-  margin-top: 5px;
+#back {  
+    text-decoration: none;
+    font-weight: bold;
+    color: #d8232a;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 5px;
 }
 
-#back:hover {
-  text-decoration: none;
-  color: #91918f;
+#back:hover {  
+    text-decoration: none;
+    color: #91918f;
 }
 
 main {
   margin-bottom: 10vh;
 }
 
-#title {
-  padding-top: 5vh;
-  text-align: center;
-  font-weight: bold;
-  color: white;
+#title { 
+    padding-top: 5vh;
+    text-align: center;
+    font-weight: bold;
+    color: white;
 }
 
 .title2 {
@@ -106,4 +103,21 @@ main {
   margin: 0 auto;
   margin-bottom: 3vh;
   margin-top: 3vh;
-}/*# sourceMappingURL=style-doc.css.map */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

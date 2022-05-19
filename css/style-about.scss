@@ -26,7 +26,6 @@ header {
   font-size: 50px;
   font-weight: bold;
 }
-
 .colore2 {
   color: black;
   font-size: 40px;
@@ -79,7 +78,7 @@ img {
 }
 
 .active {
-  color: #d8232a !important;
+  color: #d8232a;
   background-color: white;
 }
 
@@ -107,11 +106,9 @@ img {
   background-color: white;
   color: #d8232a;
 }
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 .dropdown:hover .dropbnt {
   background-color: white !important;
   color: #d8232a !important;
@@ -120,108 +117,63 @@ img {
 .hamburger {
   display: none;
 }
-
 .menu-mobile {
   display: none;
 }
-
 #home-nav-mobile {
   display: none;
 }
 
 main {
+    
   margin-top: 10vh;
   margin-bottom: 10vh;
   margin-left: 20vw;
   margin-right: 20vw;
 }
 
-.text-akk {
+.text-about {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 16px;
 }
 
-.title-akk {
+#title-about {
   font-weight: bold;
   color: #d8232a;
   font-size: 25px;
-}
-
-#subtitle {
-  font-style: italic;
-  color: black;
-  font-size: 18px;
-  margin-top: -15px;
-  margin-bottom: 3vh !important;
-}
-
-#img-text-2 {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  margin-bottom: 16px !important;
 }
 
 .img-container {
-  height: 45vh;
-  float: right;
-  margin-left: 2vw;
+  height: 41vh;
+  float: left;
+  margin-right: 2vw;
   margin-bottom: 2vh;
   margin-top: 1vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.img-text {
-  text-align: justify;
-  min-height: 46vh;
-}
-
-.title2 {
-  margin-top: 10vh;
-  text-align: center;
-  font-weight: bold;
-  color: #d8232a;
-  font-size: 25px;
-  margin-bottom: 3vh !important;
-}
-
-.img-eventi-passati {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.img-container-2 {
-  height: 46vh;
-  margin-bottom: 4vh;
-  margin-left: 1vw;
-  margin-right: 1vw;
-  background-color: #333;
-}
-
-.img-eventi-passati-2 {
+#img-text2 {
   height: 100%;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  opacity: 0.6;
-  transition: opacity 0.25s ease-in-out;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
+  object-fit: cover;
 }
 
-.img-eventi-passati-2:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  opacity: 1;
+.img-text {
+  text-align: justify;
 }
 
 footer {
+    
+  width: 100%;
   background-color: #d8232a;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 22px;
+  
 }
 
 #f-img {
@@ -253,11 +205,9 @@ footer {
   .colore1 {
     font-size: 25px;
   }
-
   .colore2 {
     font-size: 20px;
   }
-
   .tagline {
     font-size: 17px;
     margin-left: 25px;
@@ -325,12 +275,6 @@ footer {
     font-size: 15px;
   }
 
-  .active {
-    color: #d8232a !important;
-    background-color: #91918f;
-    font-weight: bold;
-  }
-
   main {
     margin-top: 4vh;
     margin-bottom: 4vh;
@@ -338,67 +282,41 @@ footer {
     margin-right: 20%;
   }
 
-  .title-akk {
+  .text-about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #title-about {
+    font-weight: bold;
+    color: #d8232a;
     font-size: 20px;
-    margin-bottom: 0 !important;
-  }
-
-  #subtitle {
-    font-size: 15px;
-    margin-bottom: 0 !important;
-  }
-
-  #img-text-2 {
-    height: 100%;
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    margin-bottom: 5px !important;
   }
 
   .img-container {
     height: 270px;
-    margin-left: 0;
-    margin-top: 2vh;
-    margin-bottom: 3vh;
+    margin-right: 0;
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  #img-text2 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
 
   .img-text {
-    min-height: 0;
+    text-align: justify;
     font-size: 12px;
   }
 
-  .title2 {
-    margin-top: 4vh;
-    margin-bottom: 2vh !important;
-    font-size: 20px;
-  }
-
-  .img-eventi-passati {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .img-container-2 {
-    height: 220px;
-    margin-left: 0;
-    margin-right: 0;
-    background-color: white;
-  }
-
-  .img-eventi-passati-2 {
-    height: 100%;
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    opacity: 1;
-    transition: inherit;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: inherit;
-  }
-
-  .img-eventi-passati-2:hover {
-    display: none;
+  #text-media {
+    font-size: 12px;
   }
 
   footer {
@@ -420,4 +338,4 @@ footer {
     font-size: 9px;
     margin: 10px;
   }
-}/*# sourceMappingURL=style-akk.css.map */
+}
