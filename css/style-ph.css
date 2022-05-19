@@ -282,8 +282,10 @@ footer {
   }
 
   #burger {
-    width: 34px;
-    padding-bottom: 18px;
+    width: 30px;
+    height: 30px;
+    fill: white;
+    margin: 10px;
   }
 
   .menu-mobile {
