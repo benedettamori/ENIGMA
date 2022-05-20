@@ -6,7 +6,7 @@ body {
   margin: 0px 0px 0px;
 }
 
-img { max-width: 100%; 
+img { max-width: 100%;
 }
 
 header { 
@@ -19,6 +19,10 @@ header {
 }
 
 .logo { width: 150px;
+}
+
+#back1 {  
+  background-color: white;
 }
 
 #back {  
@@ -107,6 +111,92 @@ main {
   margin: 0 auto;
   margin-bottom: 3vh;
   margin-top: 3vh;
+}
+
+
+
+@media all and (max-width:  600px){
+  header { 
+    height: 25vh;
+}
+
+.logo { width: 120px;
+  background-color: white;
+}
+
+#back1 {  
+  background-color: white;
+}
+
+#back {  
+    font-size: 18px;
+}
+
+main {
+  margin-bottom: 4vh;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#title { 
+    padding-top: 1vh;
+    margin-bottom: 0px !important;
+    font-size: 25px;
+}
+
+.title2 {
+  margin-top: 1vh;
+  margin-left: 0px;
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+
+.title3 {
+  font-size: 20px;
+  margin-top: 1vh;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+.title4 {
+  margin-top: 1vh;
+  margin-left: 0px;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.par-1 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0px;
+  font-size: 12px;
+}
+
+.par-2 {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.par-3 {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.img-1 {
+  width: 280px;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+
+.img-2 {
+  width: 280px;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+  
+
 }
 
 
