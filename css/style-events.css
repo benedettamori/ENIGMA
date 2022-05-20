@@ -5,6 +5,10 @@
     margin: 0px 0px 0px !important;
     }
 
+body {
+        margin: 0px 0px 0px;
+      }
+
 header { 
     height: 49,5vh;
     text-align: center;
