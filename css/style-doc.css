@@ -9,6 +9,9 @@ body {
 img { max-width: 100%;
 }
 
+p { margin: 0px 0px 0px;
+}
+
 header { 
     height: 30vh;
     background-color: white;
@@ -44,33 +47,40 @@ main {
 }
 
 #title { 
-    padding-top: 5vh;
+    padding-top: 2vh;
     text-align: center;
     font-weight: bold;
     color: white;
+    font-size: 35px;
 }
 
 .title2 {
+  font-size: 28px;
   font-weight: bold;
   color: white;
   text-align: left;
   margin-top: 5vh;
   margin-left: 10vw;
+  margin-bottom: 1vh;
 }
 
 .title3 {
+  font-size: 23px;
   font-weight: bold;
   color: white;
   text-align: left;
   margin-top: 2vh;
+  margin-bottom: 1vh;
   margin-left: 12vw;
 }
 
 .title4 {
+  font-size: 20px;
   font-weight: bold;
   color: white;
   text-align: left;
-  margin-top: 2vh;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
   margin-left: 14vw;
 }
 
@@ -84,7 +94,6 @@ main {
 .par-2 {
   color: white;
   text-align: left;
-  margin-top: -1vh;
   margin-left: 15vw;
   margin-right: 10vw;
 }
@@ -92,7 +101,6 @@ main {
 .par-3 {
   color: white;
   text-align: left;
-  margin-top: -1vh;
   margin-left: 13vw;
   margin-right: 10vw;
 }
@@ -112,6 +120,94 @@ main {
   margin-bottom: 3vh;
   margin-top: 3vh;
 }
+
+.slide {
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -35px;
+  padding: 16px;
+  color: #91918f;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: transparent;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #00000086;
+  color: white;
+}
+
+.text {
+  color: white;
+  background-color: #00000086;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 8px;
+  width: 500px;
+  text-align: center;
+}
+
+.dot-group {
+  margin-top: 10px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 14px;
+  width: 14px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
 
 
 

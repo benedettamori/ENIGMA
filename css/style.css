@@ -107,9 +107,9 @@ main {
     display: none;
     position: absolute;
     background-color: #91918f;
-    width: 180px;
+    width: 181px;
     z-index: 1;
-    margin-left: 50px; 
+    margin-left: 52.6px; 
     margin-right: 50px;
     text-align: center;
 }
