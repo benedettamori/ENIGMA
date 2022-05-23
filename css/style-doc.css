@@ -124,6 +124,9 @@ main {
 .slide {
   margin-top: 2vh;
   margin-bottom: 3vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .slideshow-container {
@@ -132,7 +135,17 @@ main {
   margin: auto;
 }
 
-.mySlides {
+.slideshow-container2 {
+  max-width: 220.99px;
+  position: relative;
+  margin: auto;
+}
+
+.size {
+  height: 439.45px;
+}
+
+.mySlides, .mySlides2 {
   display: none;
 }
 
@@ -175,11 +188,26 @@ main {
   text-align: center;
 }
 
+.text2 {
+  color: white;
+  background-color: #00000086;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 8px;
+  width: 220.99px;
+  text-align: center;
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+}
+
 .dot-group {
   margin-top: 10px;
 }
 
-.dot {
+.dot, .dot2 {
   cursor: pointer;
   height: 14px;
   width: 14px;
@@ -194,6 +222,10 @@ main {
   background-color: #717171;
 }
 
+.dot2:hover {
+  background-color: #717171;
+}
+
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -203,12 +235,6 @@ main {
   from {opacity: .4}
   to {opacity: 1}
 }
-
-
-
-
-
-
 
 
 @media all and (max-width:  600px){
@@ -230,8 +256,8 @@ main {
 
 main {
   margin-bottom: 4vh;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 #title { 
@@ -272,26 +298,90 @@ main {
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
+  font-size: 12px;
 }
 
 .par-3 {
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
+  font-size: 12px;
 }
 
 .img-1 {
-  width: 280px;
+  width: 210px;
   margin-bottom: 2vh;
   margin-top: 2vh;
+  display: flex;
+  justify-content: center;
 }
 
 .img-2 {
-  width: 280px;
+  width: 210px;
   margin-bottom: 2vh;
   margin-top: 2vh;
 }
   
+.slide {
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+  justify-content: center;
+}
+
+#element {
+  margin-top: 4vh;
+}
+
+.slideshow-container {
+  width: 220px;
+}
+
+.slideshow-container2 {
+  width: 150px;
+}
+
+.size {
+  height: auto;
+}
+
+.prev, .next {
+  color: #00000086;
+  margin-top: -30px;
+  padding: 12px;
+  font-size: 18px;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  text-decoration: none;
+  background-color: transparent;
+  color: #00000086;
+}
+
+.text {
+  font-size: 12px;
+  width: 220px;
+}
+
+.text2 {
+  font-size: 12px;
+  width: 150px;
+  border-bottom-left-radius: 19px;
+  border-bottom-right-radius: 19px;
+}
+
+.dot-group {
+  margin-top: 0px;
+}
+
+.dot, .dot2 {
+  height: 10px;
+  width: 10px;
+}
 
 }
 
