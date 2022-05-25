@@ -84,6 +84,27 @@ main {
   margin-left: 14vw;
 }
 
+.title5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-bottom: 1vh;
+  margin-top: 5vh;
+  padding-left: 28%;
+}
+
+.title6 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #d8232a;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 1vh;
+  margin-top: 5vh;
+  padding-right: 19%;
+}
+
 .par-1 {
   color: white;
   text-align: left;
@@ -116,6 +137,29 @@ main {
   text-align: left;
   margin-left: 13vw;
   margin-right: 10vw;
+}
+
+.par-4 {
+  color: #d8232a;
+  background-color: white;
+  text-align: justify;
+  padding-right: 19%;
+  margin-bottom: 8vh;
+}
+
+.par-6 {
+  color: #d8232a;
+  background-color: white;
+  text-align: justify;
+  padding-right: 19%;
+  margin-bottom: 23vh;
+}
+
+.par-5 {
+  color: white;
+  text-align: justify;
+  padding-left: 28%;
+  margin-bottom: 8vh;
 }
 
 .img-1 {
@@ -314,6 +358,125 @@ main {
   to {opacity: 1}
 }
 
+.splitview {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.panel {
+  position: absolute;
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  background-color: initial;
+}
+
+  .panel .content {
+      position: absolute;
+      width: 100vw;
+      min-height: 100vh;
+      color: white;
+  }
+
+  .panel .description {
+      width: 30%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  .panel .c-1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .c-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c-bottom {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .c-2 {
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
+    width: 16vw;
+    margin-top: 2vh;
+  }
+
+  .c-3 {
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
+    width: 16vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+.bottom {
+  z-index: 1;
+  background-color: white;
+}
+
+  .bottom .description {
+      right: 5%;
+      background-color: white;
+  }
+
+.top {
+  z-index: 2;
+  width: 50vw;
+}
+
+  .top .description {
+      left: 5%;
+  }
+
+.handle {
+  height: 100%;
+  position: absolute;
+  display: block;
+  background-color: #91918f;
+  width: 5px;
+  top: 0;
+  left: 50%;
+  z-index: 3;
+}
+
+.skewed .handle {
+  top: 50%;
+  transform: rotate(30deg) translateY(-50%);
+  height: 200%;
+  -webkit-transform-origin: top;
+  -moz-transform-origin: top;
+  transform-origin: top;
+}
+
+.skewed .top {
+  transform: skew(-30deg);
+  margin-left: -1000px;
+  width: calc(50vw + 1000px);
+}
+
+.skewed .top .content {
+  transform: skew(30deg);
+  margin-left: 1000px;
+}
+
 
 @media all and (max-width:  600px){
   header { 
@@ -336,6 +499,10 @@ main {
   margin-bottom: 4vh;
   margin-left: 40px;
   margin-right: 40px;
+}
+
+#web {
+  display: none;
 }
 
 #title { 
